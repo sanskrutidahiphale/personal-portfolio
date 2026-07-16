@@ -1,60 +1,101 @@
-# Personal Portfolio
+# 🌐 Personal Portfolio Website
 
-A modern, dark-themed developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
+This is my personal portfolio website developed using **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. It showcases my education, technical skills, projects, certifications, experience, and contact information in a modern, responsive, and interactive interface.
 
-## Tech Stack
-- React 18 + Vite
+## 🔗 Live Website
+
+**Portfolio:** https://https://sanskruti-dahiphale.vercel.app/
+
+## 📂 GitHub Repository
+
+**GitHub:** https://github.com/sanskrutidahiphale/personal-portfolio
+
+---
+
+## 🚀 Tech Stack
+
+- React.js
+- Vite
 - Tailwind CSS
-- Framer Motion (animations)
-- React Icons + Lucide React (icons)
+- Framer Motion
+- React Icons
+- Lucide React
+- JavaScript (ES6+)
 
-## 1. Install dependencies
+---
+
+## ✨ Features
+
+- Responsive design for desktop and mobile
+- Modern UI with animations and hover effects
+- Home, About, Education, Skills, Projects, Experience, Certifications, and Contact sections
+- Resume download option
+- GitHub and LinkedIn profile links
+- Smooth scrolling navigation
+- Professional dark theme
+
+---
+
+## 📁 Project Structure
+
 ```
+src/
+├── components/
+├── sections/
+├── data/
+├── assets/
+├── App.jsx
+└── main.jsx
+
+public/
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sanskrutidahiphale/personal-portfolio.git
+```
+
+Go to the project folder:
+
+```bash
+cd personal-portfolio
+```
+
+Install dependencies:
+
+```bash
 npm install
 ```
 
-## 2. Run locally
-```
+Run the project:
+
+```bash
 npm run dev
 ```
-Open the printed local URL (usually http://localhost:5173).
 
-## 3. Personalize your content
-Everything you need to edit lives in **one file**:
-```
-src/data/portfolioData.js
-```
-Update your name, role, tagline, education, skills, projects, experience, certifications,
-GitHub/LinkedIn links, and email here. The whole site updates automatically.
+---
 
-### Add your photo
-Place your photo in `public/` (e.g. `public/profile.jpg`) and set:
-```js
-avatarImage: '/profile.jpg'
-```
-in `portfolioData.js`. Until then, a gradient initials avatar is shown.
+## 🏗️ Build for Production
 
-### Add your resume
-Place your resume PDF in `public/resume.pdf` (or update `resumeUrl` in `portfolioData.js`).
-
-
-
-## 5. Build for production
-```
+```bash
 npm run build
 ```
-Output goes to the `dist/` folder.
 
-## 6. Deploy
-- **GitHub Pages**: use the `gh-pages` package, or push `dist/` to a `gh-pages` branch
-- **Vercel / Netlify**: import the repo, build command `npm run build`, output directory `dist`
+---
 
-## Project structure
-```
-src/
-  components/   Navbar, Loader, ScrollProgressBar, BackToTop, Reveal
-  sections/     Home, About, Education, Skills, Projects, Experience, Certifications, Contact, Footer
-  data/         portfolioData.js — all editable content lives here
-  App.jsx       Assembles all sections
-  index.css     Tailwind layers + reusable utility classes (glass-card, btn-primary, etc.)
-```
+## 👩‍💻 Author
+
+**Sanskruti Dahiphale**
+
+- GitHub: https://github.com/sanskrutidahiphale
+- LinkedIn: https://www.linkedin.com/in/sanskruti-dahiphale-0b6391320/
+- Email: sanskrutidahiphale475@gmail.com
+
+---
+
+© 2026 Sanskruti Dahiphale. All Rights Reserved.
