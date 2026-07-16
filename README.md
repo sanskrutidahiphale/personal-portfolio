@@ -1,4 +1,4 @@
-# Developer Portfolio
+# Personal Portfolio
 
 A modern, dark-themed developer portfolio built with React, Vite, Tailwind CSS, and Framer Motion.
 
@@ -7,7 +7,6 @@ A modern, dark-themed developer portfolio built with React, Vite, Tailwind CSS, 
 - Tailwind CSS
 - Framer Motion (animations)
 - React Icons + Lucide React (icons)
-- EmailJS (contact form, no backend needed)
 
 ## 1. Install dependencies
 ```
@@ -38,17 +37,7 @@ in `portfolioData.js`. Until then, a gradient initials avatar is shown.
 ### Add your resume
 Place your resume PDF in `public/resume.pdf` (or update `resumeUrl` in `portfolioData.js`).
 
-## 4. Set up the contact form (EmailJS)
-1. Create a free account at [emailjs.com](https://www.emailjs.com/)
-2. Create an Email Service and an Email Template (with `user_name`, `user_email`, `message` variables)
-3. Copy your Service ID, Template ID, and Public Key into `src/data/portfolioData.js`:
-```js
-export const emailjsConfig = {
-  serviceId: 'YOUR_SERVICE_ID',
-  templateId: 'YOUR_TEMPLATE_ID',
-  publicKey: 'YOUR_PUBLIC_KEY',
-}
-```
+
 
 ## 5. Build for production
 ```
